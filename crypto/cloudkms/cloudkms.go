@@ -148,6 +148,10 @@ func (c *Client) GetPublicKey(ctx context.Context, key Key) (crypto.PublicKey, c
 	return publicKey, hashAlgo, nil
 }
 
+func (c *Client) GetKMSClient() *kms.KeyManagementClient {
+	return c.client
+}
+
 func parseSignatureAlgorithm(algo kmspb.CryptoKeyVersion_CryptoKeyVersionAlgorithm) crypto.SignatureAlgorithm {
 	if algo == kmspb.CryptoKeyVersion_EC_SIGN_P256_SHA256 {
 		return crypto.ECDSA_P256
