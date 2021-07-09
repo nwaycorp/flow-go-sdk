@@ -26,8 +26,8 @@ import (
 	"github.com/onflow/cadence"
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
 )
 
 type Accounts struct {

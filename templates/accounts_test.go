@@ -19,8 +19,8 @@
 package templates_test
 
 import (
-	"github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/templates"
+	"github.com/nwaycorp/flow-go-sdk"
+	"github.com/nwaycorp/flow-go-sdk/templates"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

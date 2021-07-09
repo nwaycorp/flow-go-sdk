@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go-sdk/crypto/cloudkms"
+	"github.com/nwaycorp/flow-go-sdk/crypto/cloudkms"
 )
 
 func TestKeyFromResourceID(t *testing.T) {

@@ -20,7 +20,7 @@ package flow
 
 import (
 	"crypto/rand"
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

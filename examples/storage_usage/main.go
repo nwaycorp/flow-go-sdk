@@ -23,11 +23,11 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
-	"github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/client"
-	"github.com/onflow/flow-go-sdk/crypto"
-	"github.com/onflow/flow-go-sdk/examples"
-	"github.com/onflow/flow-go-sdk/templates"
+	"github.com/nwaycorp/flow-go-sdk"
+	"github.com/nwaycorp/flow-go-sdk/client"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk/examples"
+	"github.com/nwaycorp/flow-go-sdk/templates"
 	"google.golang.org/grpc"
 )
 

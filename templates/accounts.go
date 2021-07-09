@@ -24,7 +24,7 @@ import (
 	"github.com/onflow/cadence"
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 
-	"github.com/onflow/flow-go-sdk"
+	"github.com/nwaycorp/flow-go-sdk"
 )
 
 // Contract is a Cadence contract deployed to a Flow account.

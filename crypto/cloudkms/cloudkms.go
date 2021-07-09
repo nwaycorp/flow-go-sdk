@@ -31,7 +31,7 @@ import (
 	"google.golang.org/api/option"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
 )
 
 const (
@@ -158,7 +158,7 @@ func parseSignatureAlgorithm(algo kmspb.CryptoKeyVersion_CryptoKeyVersionAlgorit
 	}
 
 	// TODO: update this once Google KMS API supports ECDSA_secp256k1
-	// https://github.com/onflow/flow-go-sdk/issues/193
+	// https://github.com/nwaycorp/flow-go-sdk/issues/193
 	return crypto.ECDSA_secp256k1
 }
 
@@ -168,6 +168,6 @@ func parseHashAlgorithm(algo kmspb.CryptoKeyVersion_CryptoKeyVersionAlgorithm) c
 	}
 
 	// TODO: update this once Google KMS API supports ECDSA_secp256k1
-	// https://github.com/onflow/flow-go-sdk/issues/193
+	// https://github.com/nwaycorp/flow-go-sdk/issues/193
 	return crypto.SHA2_256
 }

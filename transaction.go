@@ -28,7 +28,7 @@ import (
 	"github.com/onflow/cadence"
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
 )
 
 // A Transaction is a full transaction object containing a payload and signatures.

@@ -27,7 +27,7 @@ import (
 	kms "cloud.google.com/go/kms/apiv1"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
 )
 
 // Signer is a Google Cloud KMS implementation of crypto.Signer.

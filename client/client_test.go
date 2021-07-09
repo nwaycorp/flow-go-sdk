@@ -34,10 +34,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/client"
-	"github.com/onflow/flow-go-sdk/client/convert"
-	"github.com/onflow/flow-go-sdk/test"
+	"github.com/nwaycorp/flow-go-sdk"
+	"github.com/nwaycorp/flow-go-sdk/client"
+	"github.com/nwaycorp/flow-go-sdk/client/convert"
+	"github.com/nwaycorp/flow-go-sdk/test"
 )
 
 var (

@@ -21,7 +21,7 @@ package flow
 import (
 	"github.com/pkg/errors"
 
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/nwaycorp/flow-go-sdk/crypto"
 )
 
 // An Account is an account on the Flow network.
